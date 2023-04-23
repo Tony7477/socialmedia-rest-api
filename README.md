@@ -6,15 +6,18 @@ rest api end points:
 
 
 postmapping:
+
 /jpa/users/{id}/posts=>{user can post under user_id}
 
 Delete mapping:
+
 /jpa/users/posts/{id} =>(deletes the post which has post_id)
 
 /jpa/users/{id}=>{deltes all the posts and user from both postRepository and userRepositoery }
 
 
 Putmapping:
+
 jpa/users/{id}/posts/{pid}=>editing the user's post with new description.
 
 
