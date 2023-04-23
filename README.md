@@ -26,4 +26,4 @@ http://localhost:8080/jpa/users =>(retrives the all the signed up users)
 
 http://localhost:8080/users/{id} =>(retrives users posts as per the user_id)
 
-In this we have used Docker to Launch the mysql container.
+In this project we have used Docker to Launch the mysql container.
